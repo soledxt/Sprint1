@@ -2,29 +2,27 @@
 #contenedor{
     border: 10px solid #000000;
     font: 120% monospace;
+    display: flex;
+    flex-direction: column;
 }
+
 #cabecera{
     color: #ea5455;
     background-color: #2d4059;
     height:20%;
     border-bottom: 5px solid black;
-    
 }
 
 #columna1{
     width: 20%;
-    float: left;
-
 }
 
 #columna2{
     width: 60%;
-    float: center;
 }
 
 #columna3{
     width: 20%;
-    float: right;
 }
 
 #bajada{
