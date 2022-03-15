@@ -10,6 +10,7 @@
     border-bottom: 5px solid black;
     
 }
+
 #columna1{
     width: 20%;
     float: left;
@@ -24,7 +25,6 @@
 #columna3{
     width: 20%;
     float: right;
-    
 }
 
 #bajada{
