@@ -2,8 +2,9 @@
 #contenedor{
     border: 10px solid #000000;
     font: 120% monospace;
-    display: flex;
-    flex-direction: column;
+    
+        /*display: flex;
+    flex-direction: column; Si dejo esto se descompagina la 3 fila*/
 }
 
 #cabecera{
@@ -14,17 +15,22 @@
     
 }
 
+/*
 #columna1{
     width: 20%;
+
+    
 }
 
 #columna2{
     width: 60%;
+
 }
 
 #columna3{
     width: 20%;
-}
+
+} */
 
 #bajada{
     color: #fed460;
@@ -32,7 +38,9 @@
     background-color: #f07b3f;
     border-top: 5px solid black;
     border-bottom: 10px solid black;
+
 }
+
 #izquierda{
     
     height:40%;
@@ -40,22 +48,18 @@
     float:left;
     width:70%;
     border-bottom: 10px solid black;
-
-   
 }
+
 #derecha{
     height:40%;
     background-color:#f73f52;
     float:right;
     width:30%;
     border-bottom: 10px solid black;
-
-
 }
+
 #pie{
     height:10%;
     background-color:#e6af2e;
     clear:both;
-
-
 }
