@@ -4,14 +4,13 @@
     font: 120% monospace;
     display: flex;
     flex-direction: column;
-    grid-row-gap: 0.5em;
 }
 
 #cabecera{
     color: #ea5455;
     background-color: #2d4059;
     height:20%;
-    border-bottom: 10px solid black;
+    border-bottom: 5px solid black;
     
 }
 
@@ -31,7 +30,7 @@
     color: #fed460;
     height:20%;
     background-color: #f07b3f;
-    border-top: 10px solid black;
+    border-top: 5px solid black;
     border-bottom: 10px solid black;
 }
 #izquierda{
@@ -40,7 +39,7 @@
     background-color:#4e4e6a;
     float:left;
     width:70%;
-    border-bottom: 5px solid black;
+    border-bottom: 10px solid black;
 
    
 }
@@ -57,5 +56,6 @@
     height:10%;
     background-color:#e6af2e;
     clear:both;
-    border-top: 10px solid black;
+
+
 }
