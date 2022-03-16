@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.padre{
+.container{
     display: flex;
     flex-flow: column nowrap;
 }
@@ -15,7 +15,7 @@
         flex-flow: column nowrap;
         text-align: center;
     }
-        .menu{
+        .menuprincipal{
             background: #2d4059;
             display: flex;
             flex-flow: row nowrap;
@@ -73,13 +73,14 @@
             background: #f73f52;
             
         }
-            .publicidad{
+            .texto-aside{
                 background: #ffea85;
             }
 
     .footer{
         background: #000;
+        text-align: center;
     }
-        .pie{
+        .pie-pagina{
             background: #e6af2e;
         }
