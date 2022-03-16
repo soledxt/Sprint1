@@ -26,6 +26,9 @@
         .texto-principal{
             background: #f07b3f;
         }
+            h1{
+                background: #ffd460;
+            }
 
 
 
@@ -33,6 +36,25 @@
         background: #000;
     }
 
+        .articulos{
+            background: #4e4e6a;
+        }
+            .article{
+                background: #1f6cb0;
+            }
+            .navegacion{
+                background: #70a3c4;
+            }
+        .aside{
+            background: #f73f52;
+        }
+            .publicidad{
+                background: #ffea85;
+            }
+
     .footer{
         background: #000;
     }
+        .pie{
+            background: #e6af2e;
+        }
