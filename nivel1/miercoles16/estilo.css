@@ -1,0 +1,30 @@
+body {
+    background: grey;
+  }
+  
+  .contenedor {
+    background: white;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .elemento {
+    background-color: antiquewhite;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .hijito {
+    background-color: aquamarine;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 30 px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
