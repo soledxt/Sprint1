@@ -1,19 +1,25 @@
+#contenedor {
+  border: 10px solid #000000;
+  font: 120% monospace;
 
+<<<<<<< HEAD
 #contenedor{
     border: 10px solid #000000;
     font: 120% monospace;
     
     
         /*display: flex;
+=======
+  /*display: flex;
+>>>>>>> 12dba7d39cd647946ba4a5d1b9e27525aef0b405
     flex-direction: column; Si dejo esto se descompagina la 3 fila*/
 }
 
-#cabecera{
-    color: #ea5455;
-    background-color: #2d4059;
-    height:20%;
-    border-bottom: 5px solid black;
-    
+#cabecera {
+  color: #ea5455;
+  background-color: #2d4059;
+  height: 20%;
+  border-bottom: 5px solid black;
 }
 
 /*
@@ -33,34 +39,32 @@
 
 } */
 
-#bajada{
-    color: #fed460;
-    height:20%;
-    background-color: #f07b3f;
-    border-top: 5px solid black;
-    border-bottom: 10px solid black;
-
+#bajada {
+  color: #fed460;
+  height: 20%;
+  background-color: #f07b3f;
+  border-top: 5px solid black;
+  border-bottom: 10px solid black;
 }
 
-#izquierda{
-    
-    height:40%;
-    background-color:#4e4e6a;
-    float:left;
-    width:70%;
-    border-bottom: 10px solid black;
+#izquierda {
+  height: 40%;
+  background-color: #4e4e6a;
+  float: left;
+  width: 70%;
+  border-bottom: 10px solid black;
 }
 
-#derecha{
-    height:40%;
-    background-color:#f73f52;
-    float:right;
-    width:30%;
-    border-bottom: 10px solid black;
+#derecha {
+  height: 40%;
+  background-color: #f73f52;
+  float: right;
+  width: 30%;
+  border-bottom: 10px solid black;
 }
 
-#pie{
-    height:10%;
-    background-color:#e6af2e;
-    clear:both;
+#pie {
+  height: 10%;
+  background-color: #e6af2e;
+  clear: both;
 }
