@@ -1,16 +1,9 @@
-/* NIVEL 1. EJERCICIO 1 */
 *{
     margin:10px;
     padding: 10px;
     box-sizing: border-box;
     max-width: 1200px
 }
-
-/*@media only screen and (max-width: 1200px) {
-    * {
-      background-color: lightblue;
-    }
-  }*/
 
 .container{
     display: flex;
@@ -92,6 +85,3 @@
         .pie-pagina{
             background: #e6af2e;
         }
-
-/* NIVEL 1. EJERCICIO 2 */
-
