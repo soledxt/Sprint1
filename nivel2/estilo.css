@@ -1,0 +1,140 @@
+*{
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{
+        background: url(../nivel2/images/header.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+        .menuprincipal{
+            background: rgba(0,0,0,0.05);
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: flex-end;
+        }
+            .logo{
+                flex: 1 1 auto;
+                color: #fff;
+
+            }
+            .nav{    
+                flex: 5 1 auto;
+
+            }
+            .social{
+                
+                flex: 1 1 auto;
+                                
+            }
+
+        .texto-principal{
+            background: #f07b3f;
+        }
+            h1{
+                background: #ffd460;
+                text-align: center;
+            }
+
+
+
+    .section{
+        background: #000;
+        display: flex;
+        text-align: center;
+    }
+        .articulos{
+            background: #4e4e6a;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .article{
+                background: #1f6cb0;
+                flex: 1 1 40%;
+
+            }
+            .navegacion{
+                background: #70a3c4;
+                flex: 1 1 100%;
+            }
+        .aside{
+            background: #f73f52;
+            
+        }
+            .texto-aside{
+                background: #ffea85;
+            }
+
+    .footer{
+        background: #000;
+        text-align: center;
+    }
+        .pie-pagina{
+            background: #e6af2e;
+        }
+
+/*        
+@media all and (max-width: 800px) {
+        .section{
+            flex-direction: column;
+            background: #feff03
+        }
+    }
+        
+
+@media all and (max-width: 600px) {
+    .section{
+        flex-direction: column;
+        background: #feff03;
+    }
+
+    .menuprincipal{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .articulos{
+        flex-direction: column;
+        background: #09506f;
+    }
+        .article{
+            background: #61959c;
+        }
+        .navegacion{
+            background: #a3ddcb;
+        }
+        .aside{
+            background: #fd7b54;
+            
+        }
+            .texto-aside{
+                background: #fdb36b;
+            }
+}
+
+
+@media all and (max-width: 400px){
+    .aside{
+        flex-direction: column;
+    }
+}
+*/
+
