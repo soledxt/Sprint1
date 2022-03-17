@@ -94,27 +94,4 @@
         flex-direction: column;
         background: #feff03
     }
-
-    /*.menuprincipal{
-        flex-direction: column;
-        height: auto;
-    }
-
-    .aside{
-        display: flex;
-        justify-content: center;
-    } */
 }
-
-/* @media all and (max-width:600px){
-    .articulos{
-        flex-direction: column;
-    }
-
-}
-
-@media all and (max-width: 400px){
-    .aside{
-        flex-direction: column;
-    }
-}*/ 
