@@ -1,3 +1,6 @@
+/* Se agregan los media query para el sitio en tablets*/
+
+
 *{
     margin:10px;
     padding: 10px;
@@ -84,4 +87,17 @@
     }
         .pie-pagina{
             background: #e6af2e;
+        }
+/* Se agrega media para maquetar en pagina con tablet como pide el ejercio 2 del nivel 1*/
+        @media all and (max-width:800px) {
+
+            .section{
+                flex-direction: column;
+            }
+            /* Esta parte no la pide el ejercicio 2 pero queda bien
+            .menuprincipal{
+                flex-direction: column;
+                height: auto;
+
+            }*/
         }
