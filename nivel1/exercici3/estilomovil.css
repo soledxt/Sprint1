@@ -1,3 +1,6 @@
+/* Se agregan los media query para el sitio en movil*/
+
+
 *{
     margin:10px;
     padding: 10px;
@@ -85,3 +88,40 @@
         .pie-pagina{
             background: #e6af2e;
         }
+
+@media all and (max-width: 600px) {
+    .section{
+        flex-direction: column;
+        background: #feff03
+    }
+
+    .menuprincipal{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .articulos{
+        flex-direction: column;
+        background: #09506f;
+    }
+        .article{
+            background: #61959c;
+        }
+        .navegacion{
+            background: #a3ddcb;
+        }
+        .aside{
+            background: #fd7b54;
+            
+        }
+            .texto-aside{
+                background: #fdb36b;
+            }
+}
+
+
+@media all and (max-width: 400px){
+    .aside{
+        flex-direction: column;
+    }
+}

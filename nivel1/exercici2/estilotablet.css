@@ -88,16 +88,33 @@
         .pie-pagina{
             background: #e6af2e;
         }
-/* Se agrega media para maquetar en pagina con tablet como pide el ejercio 2 del nivel 1*/
-        @media all and (max-width:800px) {
 
-            .section{
-                flex-direction: column;
-            }
-            /* Esta parte no la pide el ejercicio 2 pero queda bien
-            .menuprincipal{
-                flex-direction: column;
-                height: auto;
+@media all and (max-width: 800px) {
+    .section{
+        flex-direction: column;
+        background: #feff03
+    }
 
-            }*/
-        }
+    /*.menuprincipal{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .aside{
+        display: flex;
+        justify-content: center;
+    } */
+}
+
+/* @media all and (max-width:600px){
+    .articulos{
+        flex-direction: column;
+    }
+
+}
+
+@media all and (max-width: 400px){
+    .aside{
+        flex-direction: column;
+    }
+}*/ 
