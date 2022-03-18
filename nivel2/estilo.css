@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  padding: 0.1px;
+  padding: 1px;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
@@ -92,7 +92,7 @@ a {
 }
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 21px;
+  font-size: 28px;
   color: #f08080;
   font-weight: 700;
   text-align: center;
@@ -100,11 +100,11 @@ h1 {
 }
 
 .section {
-  background: grey;
+  background: #d8d7d7;
   display: flex;
 }
 .articulos {
-  background: #f7f7f7;
+  background: #d8d7d7;
   flex: 2 1 auto;
   display: flex;
   flex-flow: row wrap;
@@ -125,6 +125,19 @@ h1 {
   width: 100%;
 }
 
+.article a {
+  color: #fff;
+  font-size: 13px;
+  padding: 10px;
+  background: #000;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.article a:hover {
+  background: #70a3c4;
+}
+
 h3 {
   color: yellow;
   font-size: 13px;
@@ -137,24 +150,41 @@ h2 {
   text-transform: uppercase;
   padding: 0px 0 10px 0;
   color: #fff;
+  background: #f08080;
 }
 .navegacion {
-  background: #70a3c4;
+  background: #d8d7d7;
   flex: 1 1 100%;
-}
-.aside {
-  background: #f73f52;
-}
-.texto-aside {
-  background: #ffea85;
+  text-align: center;
+  font-size: 13px;
+  margin: 10px 10px 0 0px;
 }
 
-.footer {
-  background: #000;
+.aside {
+  /*background: #f73f52;*/
+  flex: 1 1 auto;
+  margin: 10px 5px 10px 0;
+}
+
+h4 {
+  /*background: #000;*/
+  color: black;
   text-align: center;
+  padding: 10px;
+  font-size: small;
+}
+/*.texto-aside {
+  background: #ffea85;
+}*/
+
+.footer {
+  background: #ececec;
+  text-align: center;
+  margin-top: 10px;
 }
 .pie-pagina {
-  background: #e6af2e;
+  /*
+  background: #ececec;*/
 }
 
 /*        
