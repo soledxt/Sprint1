@@ -18,6 +18,7 @@ a {
 }
 
 .header {
+  height: 300px;
   background: url(../nivel2/images/header.jpg);
   background-position: center;
   background-attachment: contain;
@@ -26,26 +27,40 @@ a {
   flex-flow: column nowrap;
   text-align: center;
   justify-content: space-between;
+  margin-bottom: 10px;
+  
+}
+
+.header img {
+  max-width: 100%;
+  max-height: 100%;
+
 }
 .menuprincipal {
-  background: rgba(0, 0, 0, 0.05);
+  
   display: flex;
   flex-flow: row nowrap;
   height: 100px;
-  align-items: flex-end;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   align-items: center;
 }
+
 .logo {
   flex: 1 1 auto;
-  /* flex-shrink: inherit;*/
+
 }
 
 .logo img {
+<<<<<<< HEAD
   max-width: 25%;
   max-height: 25%;
   min-width: 10%;
   min-height: 10%;
+=======
+  display: flex;
+  margin: auto;
+  max-width: 27%;
+  max-height: 27%;
+>>>>>>> f99a84936830a90e153dd1041b92c9004bff0563
 }
 
 .logo a {
@@ -66,6 +81,9 @@ a {
   text-transform: uppercase;
   padding: 0 10px;
   letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .nav a:hover {
@@ -74,12 +92,16 @@ a {
 .social {
   flex: 1 1 auto;
   display: flex;
+ 
 }
 
 .social a {
   font-size: 18px;
   color: #8c8c8c;
   padding: 0 5px;
+  
+ 
+
 }
 
 .social a:hover {
@@ -87,12 +109,18 @@ a {
 }
 
 .texto-principal {
-  /*background: #f07b3f;*/
-  height: 580 px;
+  height: 30%;
+  margin: 30px 30px 0;
+  border-radius: 5px 5px 0px 0px; /*Agrego bordes redondeados superiores en el recuadro
+    Se agrega transparencia al texto principal*/
+  background: rgba(34,34,34,0.75);
+  background-color: rgba(0,0,0,0.1)
+  
+  
 }
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 28px;
+  font-size: 32px;
   color: #f08080;
   font-weight: 700;
   text-align: center;
@@ -102,12 +130,15 @@ h1 {
 .section {
   background: #d8d7d7;
   display: flex;
+  margin-bottom: 5px;
+  
 }
 .articulos {
   background: #d8d7d7;
   flex: 2 1 auto;
   display: flex;
   flex-flow: row wrap;
+
 }
 .article {
   flex: 1 1 40%;
@@ -120,10 +151,9 @@ h1 {
 }
 
 .article img {
-  /*max-width: 300px;
-  max-height: 300px;*/
-  width: 100%;
+  width: 100%
 }
+
 
 .article a {
   color: #fff;
@@ -132,6 +162,7 @@ h1 {
   background: #000;
   margin: 10px 0;
   display: inline-block;
+ 
 }
 
 .article a:hover {
@@ -140,17 +171,23 @@ h1 {
 
 h3 {
   color: yellow;
-  font-size: 13px;
+  font-size: 12px;
   padding: 10px 0;
   margin-top: -30px;
 }
 
 h2 {
+<<<<<<< HEAD
   font-size: 22px;
+=======
+  font-size: 20px;
+>>>>>>> f99a84936830a90e153dd1041b92c9004bff0563
   text-transform: uppercase;
-  padding: 0px 0 10px 0;
+  /*padding: 0px 0 10px 0;*/
   color: #fff;
   background: #f08080;
+  
+
 }
 .navegacion {
   background: #d8d7d7;
@@ -161,26 +198,32 @@ h2 {
 }
 
 .aside {
-  /*background: #f73f52;*/
+
   flex: 1 1 auto;
-  margin: 10px 5px 10px 0;
+  margin: 10px 10px 10px 0px;
 }
 
 h4 {
-  /*background: #000;*/
+
   color: black;
   text-align: center;
   padding: 10px;
   font-size: small;
 }
-/*.texto-aside {
-  background: #ffea85;
+/*texto-aside {
+  margin: 10px;
+  border-bottom: solid black 2px;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
 }*/
 
 .footer {
   background: #ececec;
   text-align: center;
-  margin-top: 10px;
+  margin: 5px 0.5px 0.5px 0.5px;
+  font-size: 12px;
+  
+  
 }
 .pie-pagina {
   /*
@@ -233,3 +276,4 @@ h4 {
     }
 }
 */
+
