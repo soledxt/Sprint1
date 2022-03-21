@@ -120,10 +120,11 @@ h1 {
 }
 
 .article img {
-  /*max-width: 300px;
-  max-height: 300px;*/
-  width: 100%;
+  /*max-width: 100%;
+  max-height: 100%;*/
+  width: 100%
 }
+
 
 .article a {
   color: #fff;
@@ -141,13 +142,13 @@ h1 {
 
 h3 {
   color: yellow;
-  font-size: 13px;
+  font-size: 12px;
   padding: 10px 0;
   margin-top: -30px;
 }
 
 h2 {
-  font-size: 21px;
+  font-size: 20px;
   text-transform: uppercase;
   /*padding: 0px 0 10px 0;*/
   color: #fff;
