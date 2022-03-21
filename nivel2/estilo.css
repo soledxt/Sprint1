@@ -44,6 +44,7 @@ a {
   align-items: center;
   /*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
   
+  
 }
 .logo {
   flex: 1 1 auto;
@@ -96,6 +97,7 @@ a {
   font-size: 18px;
   color: #8c8c8c;
   padding: 0 5px;
+  
  
 
 }
@@ -106,13 +108,12 @@ a {
 
 .texto-principal {
   height: 30%;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 30px 30px 0;
+  border-radius: 5px 5px 0px 0px; /*Agrego bordes redondeados superiores en el recuadro
+    Se agrega transparencia al texto principal*/
   background: rgba(34,34,34,0.75);
   background-color: rgba(0,0,0,0.1)
-
-
-
+  
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -192,7 +193,7 @@ h2 {
 .aside {
 
   flex: 1 1 auto;
-  margin: 10px 50px 10px 0px;
+  margin: 10px 10px 10px 0px;
 }
 
 h4 {
@@ -201,18 +202,19 @@ h4 {
   text-align: center;
   padding: 10px;
   font-size: small;
-  font-weight: light;
 }
-/*.texto-aside {
-  background: #ffea85;
+/*texto-aside {
+  margin: 10px;
+  border-bottom: solid black 2px;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
 }*/
 
 .footer {
   background: #ececec;
   text-align: center;
-  margin-top: 5px;
-  margin-left: 0.5px;
-  margin-right: 0.5px;
+  margin: 5px 0.5px 0.5px 0.5px;
+  font-size: 12px;
   
   
 }
