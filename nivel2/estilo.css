@@ -27,7 +27,7 @@ a {
   flex-flow: column nowrap;
   text-align: center;
   justify-content: space-between;
-
+  margin-bottom: 10px;
   
 }
 
@@ -37,13 +37,13 @@ a {
 
 }
 .menuprincipal {
-  background: rgba(0, 0, 0, 0.05);
+  background: #0000000d;
   display: flex;
   flex-flow: row nowrap;
   height: 100px;
-  align-items: flex-end;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  
 }
 .logo {
   flex: 1 1 auto;
@@ -89,8 +89,7 @@ a {
 .social {
   flex: 1 1 auto;
   display: flex;
-  
-  
+ 
 }
 
 .social a {
@@ -120,12 +119,15 @@ h1 {
 .section {
   background: #d8d7d7;
   display: flex;
+  margin-bottom: 5px;
+  
 }
 .articulos {
   background: #d8d7d7;
   flex: 2 1 auto;
   display: flex;
   flex-flow: row wrap;
+
 }
 .article {
   flex: 1 1 40%;
@@ -183,7 +185,7 @@ h2 {
 .aside {
 
   flex: 1 1 auto;
-  margin: 10px 5px 10px 0;
+  margin: 10px 50px 10px 0px;
 }
 
 h4 {
@@ -200,7 +202,9 @@ h4 {
 .footer {
   background: #ececec;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
+  ;
+  
 }
 .pie-pagina {
   /*
@@ -253,3 +257,4 @@ h4 {
     }
 }
 */
+
