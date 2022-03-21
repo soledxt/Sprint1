@@ -28,16 +28,13 @@ a {
   text-align: center;
   justify-content: space-between;
   margin-bottom: 10px;
-  
 }
 
 .header img {
   max-width: 100%;
   max-height: 100%;
-
 }
 .menuprincipal {
-  
   display: flex;
   flex-flow: row nowrap;
   height: 100px;
@@ -46,21 +43,13 @@ a {
 
 .logo {
   flex: 1 1 auto;
-
 }
 
 .logo img {
-<<<<<<< HEAD
-  max-width: 25%;
-  max-height: 25%;
-  min-width: 10%;
-  min-height: 10%;
-=======
   display: flex;
   margin: auto;
   max-width: 27%;
   max-height: 27%;
->>>>>>> f99a84936830a90e153dd1041b92c9004bff0563
 }
 
 .logo a {
@@ -83,7 +72,6 @@ a {
   letter-spacing: 2px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .nav a:hover {
@@ -92,16 +80,12 @@ a {
 .social {
   flex: 1 1 auto;
   display: flex;
- 
 }
 
 .social a {
   font-size: 18px;
   color: #8c8c8c;
   padding: 0 5px;
-  
- 
-
 }
 
 .social a:hover {
@@ -113,10 +97,8 @@ a {
   margin: 30px 30px 0;
   border-radius: 5px 5px 0px 0px; /*Agrego bordes redondeados superiores en el recuadro
     Se agrega transparencia al texto principal*/
-  background: rgba(34,34,34,0.75);
-  background-color: rgba(0,0,0,0.1)
-  
-  
+  background: rgba(34, 34, 34, 0.75);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -131,14 +113,12 @@ h1 {
   background: #d8d7d7;
   display: flex;
   margin-bottom: 5px;
-  
 }
 .articulos {
   background: #d8d7d7;
   flex: 2 1 auto;
   display: flex;
   flex-flow: row wrap;
-
 }
 .article {
   flex: 1 1 40%;
@@ -151,9 +131,8 @@ h1 {
 }
 
 .article img {
-  width: 100%
+  width: 100%;
 }
-
 
 .article a {
   color: #fff;
@@ -162,7 +141,6 @@ h1 {
   background: #000;
   margin: 10px 0;
   display: inline-block;
- 
 }
 
 .article a:hover {
@@ -177,17 +155,11 @@ h3 {
 }
 
 h2 {
-<<<<<<< HEAD
-  font-size: 22px;
-=======
   font-size: 20px;
->>>>>>> f99a84936830a90e153dd1041b92c9004bff0563
   text-transform: uppercase;
   /*padding: 0px 0 10px 0;*/
   color: #fff;
   background: #f08080;
-  
-
 }
 .navegacion {
   background: #d8d7d7;
@@ -198,13 +170,11 @@ h2 {
 }
 
 .aside {
-
   flex: 1 1 auto;
   margin: 10px 10px 10px 0px;
 }
 
 h4 {
-
   color: black;
   text-align: center;
   padding: 10px;
@@ -222,13 +192,10 @@ h4 {
   text-align: center;
   margin: 5px 0.5px 0.5px 0.5px;
   font-size: 12px;
-  
-  
-}
+} /*
 .pie-pagina {
   /*
   background: #ececec;*/
-}
 
 /*        
 @media all and (max-width: 800px) {
@@ -276,4 +243,3 @@ h4 {
     }
 }
 */
-
