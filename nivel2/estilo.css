@@ -132,6 +132,7 @@ h1 {
   background: #000;
   margin: 10px 0;
   display: inline-block;
+ 
 }
 
 .article a:hover {
@@ -146,11 +147,13 @@ h3 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 21px;
   text-transform: uppercase;
-  padding: 0px 0 10px 0;
+  /*padding: 0px 0 10px 0;*/
   color: #fff;
   background: #f08080;
+  
+
 }
 .navegacion {
   background: #d8d7d7;
