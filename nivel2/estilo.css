@@ -177,6 +177,7 @@ h2 {
 .aside {
   flex: 1 1 auto;
   margin: 10px 10px 10px 0px;
+
 }
 
 h4 {
@@ -202,11 +203,11 @@ h4 {
   /*
   background: #ececec;*/
 
-/*        
+      
 @media all and (max-width: 800px) {
         .section{
             flex-direction: column;
-            background: #feff03
+           /* background: #feff03*/
         }
     }
         
@@ -214,7 +215,7 @@ h4 {
 @media all and (max-width: 600px) {
     .section{
         flex-direction: column;
-        background: #feff03;
+/*        background: #feff03;*/
     }
 
     .menuprincipal{
@@ -224,9 +225,9 @@ h4 {
 
     .articulos{
         flex-direction: column;
-        background: #09506f;
+       /*background: #09506f;*/
     }
-        .article{
+       /* .article{
             background: #61959c;
         }
         .navegacion{
@@ -238,7 +239,7 @@ h4 {
         }
             .texto-aside{
                 background: #fdb36b;
-            }
+            }*/
 }
 
 
@@ -247,4 +248,3 @@ h4 {
         flex-direction: column;
     }
 }
-*/
