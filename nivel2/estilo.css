@@ -101,15 +101,62 @@ a {
     Se agrega transparencia al texto principal*/
   background: rgba(34, 34, 34, 0.75);
   background-color: rgba(0, 0, 0, 0.1);
+  animation: moverIzquierda 2s ease-in;
+  
 }
+
+h1 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;
+  /*display: block;*/
+  font-size: 32px;
+  color: #f0b5a0;
+  text-shadow: 0 8px 9px #020202, 0px -2px 1px hsl(0, 0%, 53%) /*rgb(109, 105, 105)*/ ;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+
+ /* padding: 100px 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;*/
+
+  /*
+  display: inline;
+  position: relative;
+  font: 32px Helvetica, Sans-Serif;
+  letter-spacing: 1px;
+  color: #f59c7b;*/
+}
+
+/*  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;
+  display: block;
+  font-size: 92px;
+  color: #f1ebe5;
+  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  font-weight: bold;
+  letter-spacing: -4px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ece4d9 0%,#e9dfd1 100%);
+  position: absolute;
+  padding: 100px 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+
+
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
-  color: #f59c7b /* #f08080*/;
+  color: #f59c7b  #f08080;
   font-weight: 700;
   text-align: center;
   line-height: 1.6;
-}
+}*/
 
 .section {
   background: #d8d7d7;
@@ -177,6 +224,7 @@ h2 {
   text-align: center;
   font-size: 13px;
   margin: 10px 10px 0 0px;
+  
 }
 
 .aside {
@@ -210,7 +258,19 @@ h4 {
   /*
   background: #ececec;*/
 
-      
+
+@keyframes moverIzquierda {
+  0% { opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translate(0);
+
+  }
+  
+}
 @media all and (max-width: 800px) {
         .section{
             flex-direction: column;
