@@ -80,12 +80,14 @@ a {
 .social {
   flex: 1 1 auto;
   display: flex;
+
 }
 
 .social a {
   font-size: 18px;
   color: #8c8c8c;
   padding: 0 5px;
+
 }
 
 .social a:hover {
