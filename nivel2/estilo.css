@@ -101,7 +101,7 @@ a {
     Se agrega transparencia al texto principal*/
   background: rgba(34, 34, 34, 0.75);
   background-color: rgba(0, 0, 0, 0.1);
-  animation: moverIzquierda 2s ease-in;
+  animation: moverIzquierda 4s ease-in;
   
 }
 
