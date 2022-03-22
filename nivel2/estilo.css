@@ -113,12 +113,15 @@ h1 {
   background: #d8d7d7;
   display: flex;
   margin-bottom: 5px;
+  
 }
 .articulos {
   background: #d8d7d7;
   flex: 2 1 auto;
   display: flex;
   flex-flow: row wrap;
+
+
 }
 .article {
   flex: 1 1 40%;
@@ -177,6 +180,7 @@ h2 {
 .aside {
   flex: 1 1 auto;
   margin: 10px 10px 10px 0px;
+  
 
 }
 
@@ -186,6 +190,7 @@ h4 {
   padding: 10px;
   font-size: small;
 }
+
 /*texto-aside {
   margin: 10px;
   border-bottom: solid black 2px;
