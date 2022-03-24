@@ -109,7 +109,6 @@ a {
 h1 {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
   text-transform: uppercase;
-  /*display: block;*/
   font-size: 32px;
   color: #f0b5a0;
   text-shadow: 0 8px 9px #020202, 0px -2px 1px hsl(0, 0%, 53%) /*rgb(109, 105, 105)*/ ;
@@ -119,15 +118,6 @@ h1 {
 
 
 }
-/*
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 32px;
-  color: #f59c7b  #f08080;
-  font-weight: 700;
-  text-align: center;
-  line-height: 1.6;
-}*/
 
 .section {
   background: #d8d7d7;
@@ -163,11 +153,9 @@ h1 {
 }
 
 .article a {
-  /*color: #fff;*/
   color: #8c8c8c;
   font-size: 12px;
   padding: 10px;
-  /*background: #000;*/
   margin: 10px 0;
   display: inline-block;
   
@@ -187,7 +175,6 @@ h3 {
 h2 {
   font-size: 20px;
   text-transform: uppercase;
-  /*padding: 0px 0 10px 0;*/
   color: #fff;
   background: #f08080;
 }
@@ -214,23 +201,13 @@ h4 {
   font-size: small;
 }
 
-/*texto-aside {
-  margin: 10px;
-  border-bottom: solid black 2px;
-  text-align: right;
-  font-family: 'Times New Roman', Times, serif;
-}*/
 
 .footer {
   background: #ececec;
   text-align: center;
   margin: 5px 0.5px 0.5px 0.5px;
   font-size: 12px;
-} /*
-.pie-pagina {
-  /*
-  background: #ececec;*/
-
+} 
 
 @keyframes moverIzquierda {
   0% { opacity: 0;
@@ -248,7 +225,7 @@ h4 {
 @media all and (max-width: 800px) {
         .section{
             flex-direction: column;
-           /* background: #feff03*/
+
         }
     }
         
@@ -256,7 +233,7 @@ h4 {
 @media all and (max-width: 600px) {
     .section{
         flex-direction: column;
-/*        background: #feff03;*/
+
     }
 
     .menuprincipal{
@@ -266,21 +243,9 @@ h4 {
 
     .articulos{
         flex-direction: column;
-       /*background: #09506f;*/
+     
     }
-       /* .article{
-            background: #61959c;
-        }
-        .navegacion{
-            background: #a3ddcb;
-        }
-        .aside{
-            background: #fd7b54;
-            
-        }
-            .texto-aside{
-                background: #fdb36b;
-            }*/
+      
 }
 
 
