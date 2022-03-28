@@ -75,6 +75,7 @@
             }
         .aside{
             background: #f73f52;
+            flex: 1 1 15%;
             
         }
             .texto-aside{
